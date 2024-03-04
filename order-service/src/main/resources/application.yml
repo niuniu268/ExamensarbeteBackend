@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.72:3306/hotel?serverTimezone=UTC
+    username: louis
+    password: louis268
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: orderservice
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
