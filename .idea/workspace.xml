@@ -63,12 +63,13 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AuthServiceApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.GatewayServiceApplication.executor": "Run",
     "Spring Boot.OrderServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/Mac/IdeaProjects/Examarbete/user-service/src/main/java/org/example/userservice",
+    "last_opened_file_path": "/Users/Mac/IdeaProjects/Examarbete/auth-service/src/main/java/org/example/authservice",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.stylelint": "",
@@ -90,11 +91,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice" />
       <recent name="$PROJECT_DIR$/user-service/src/main/java/org/example/userservice" />
       <recent name="$PROJECT_DIR$/hotel-service" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.authservice.mapper" />
+      <recent name="org.example.authservice.pojo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
     <configuration name="OrderServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="order-service" />
       <extension name="coverage">
@@ -138,6 +144,13 @@
       <option name="MAIN_CLASS_NAME" value="org.example.orderservice.OrderServiceApplicationTests" />
       <option name="METHOD_NAME" value="testFindById" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.authservice.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

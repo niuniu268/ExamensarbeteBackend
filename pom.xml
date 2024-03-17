@@ -13,6 +13,7 @@
         <module>order-service</module>
         <module>user-service</module>
         <module>gateway-service</module>
+        <module>auth-service</module>
     </modules>
 
     <packaging>pom</packaging>

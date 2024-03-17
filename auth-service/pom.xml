@@ -7,24 +7,15 @@
         <artifactId>Examarbete</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <groupId>org.example</groupId>
-    <artifactId>user-service</artifactId>
+    <artifactId>auth-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>user-service</name>
-    <packaging>jar</packaging>
+    <name>auth-service</name>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.example</groupId>
-                <artifactId>Examarbete</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
+    <properties>
+        <java.version>17</java.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -68,21 +59,53 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
+
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-annotation</artifactId>
-            <version>3.5.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+            <version>0.11.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <version>0.11.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <version>0.11.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.14</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>user-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -98,6 +121,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
