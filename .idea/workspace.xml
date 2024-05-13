@@ -54,6 +54,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ElasticsearchServiceApplicationTests.test_HotelRepository_servicebyId.executor": "Run",
+    "JUnit.ElasticsearchServiceApplicationTests.test_HotelService_servicebyId.executor": "Run",
+    "JUnit.ElasticsearchServiceApplicationTests.test_elasticsearchrepository.executor": "Run",
     "JUnit.OrderServiceApplicationTests.executor": "Run",
     "JUnit.OrderServiceApplicationTests.testControllerFindById.executor": "Run",
     "JUnit.OrderServiceApplicationTests.testFindById.executor": "Run",
@@ -100,7 +103,55 @@
       <recent name="org.example.authservice.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
+  <component name="RunManager" selected="JUnit.ElasticsearchServiceApplicationTests.test_HotelService_servicebyId">
+    <configuration name="ElasticsearchServiceApplicationTests.test_HotelRepository_servicebyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.elasticsearchservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.elasticsearchservice" />
+      <option name="MAIN_CLASS_NAME" value="org.example.elasticsearchservice.ElasticsearchServiceApplicationTests" />
+      <option name="METHOD_NAME" value="test_HotelRepository_servicebyId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchServiceApplicationTests.test_HotelService_servicebyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.elasticsearchservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.elasticsearchservice" />
+      <option name="MAIN_CLASS_NAME" value="org.example.elasticsearchservice.ElasticsearchServiceApplicationTests" />
+      <option name="METHOD_NAME" value="test_HotelService_servicebyId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchServiceApplicationTests.test_elasticsearchrepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.elasticsearchservice.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.elasticsearchservice" />
+      <option name="MAIN_CLASS_NAME" value="org.example.elasticsearchservice.ElasticsearchServiceApplicationTests" />
+      <option name="METHOD_NAME" value="test_elasticsearchrepository" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="order-service" />
       <extension name="coverage">
@@ -112,22 +163,6 @@
       <option name="PACKAGE_NAME" value="org.example.orderservice" />
       <option name="MAIN_CLASS_NAME" value="org.example.orderservice.OrderServiceApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplicationTests.testControllerFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.orderservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.orderservice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.orderservice.OrderServiceApplicationTests" />
-      <option name="METHOD_NAME" value="testControllerFindById" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,6 +186,13 @@
     <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="elasticsearch-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.elasticsearchservice.ElasticsearchServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,17 +233,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElasticsearchServiceApplicationTests.test_HotelService_servicebyId" />
+        <item itemvalue="JUnit.ElasticsearchServiceApplicationTests.test_HotelRepository_servicebyId" />
+        <item itemvalue="JUnit.ElasticsearchServiceApplicationTests.test_elasticsearchrepository" />
         <item itemvalue="JUnit.OrderServiceApplicationTests" />
         <item itemvalue="JUnit.OrderServiceApplicationTests.testFindById" />
-        <item itemvalue="JUnit.OrderServiceApplicationTests.testControllerFindById" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.22-corretto-11.0.22-3183f394aec4-fdae186d" />
-        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-92e50af3" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>

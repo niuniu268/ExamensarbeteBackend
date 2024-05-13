@@ -32,7 +32,7 @@ public class UserinfoController {
     }
 
     @PostMapping
-    public void findByUserName(@PathVariable( "username" ) String username, @PathVariable( "password" ) String password){
+    public void findByUserName(@PathParam( "username" ) String username, @PathParam( "password" ) String password){
         System.out.println(username );
 
         UserInfo byUsername = userinfoService.findByUsername( username );
