@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@192.168.1.72">
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.52">
-    <root id="1"/>
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <Grants>assignment|schema||louis||ALTER|G
+assignment|schema||louis||ALTER ROUTINE|G
+assignment|schema||louis||CREATE|G
+assignment|schema||louis||CREATE ROUTINE|G
+assignment|schema||louis||CREATE TEMPORARY TABLES|G
+assignment|schema||louis||CREATE VIEW|G
+assignment|schema||louis||DELETE|G
+assignment|schema||louis||DELETE HISTORY|G
+assignment|schema||louis||DROP|G
+assignment|schema||louis||EVENT|G
+assignment|schema||louis||EXECUTE|G
+assignment|schema||louis||INDEX|G
+assignment|schema||louis||INSERT|G
+assignment|schema||louis||LOCK TABLES|G
+assignment|schema||louis||REFERENCES|G
+assignment|schema||louis||SELECT|G
+assignment|schema||louis||SHOW CREATE ROUTINE|G
+assignment|schema||louis||SHOW VIEW|G
+assignment|schema||louis||TRIGGER|G
+assignment|schema||louis||UPDATE|G</Grants>
+      <ServerVersion>11.3.2</ServerVersion>
+    </root>
     <collation id="2" parent="1" name="big5_chinese_ci">
       <Charset>big5</Charset>
       <DefaultForCharset>1</DefaultForCharset>
@@ -1195,59 +1219,179 @@
     <schema id="508" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="509" parent="1" name="performance_schema">
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </schema>
-    <schema id="510" parent="1" name="sys">
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </schema>
-    <schema id="511" parent="1" name="ass">
+    <schema id="509" parent="1" name="assignment">
+      <LastIntrospectionLocalTimestamp>2024-05-13.14:24:23</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="512" parent="1" name="hotel">
-      <LastIntrospectionLocalTimestamp>2024-03-17.05:14:57</LastIntrospectionLocalTimestamp>
+    <user id="510" parent="1" name="louis"/>
+    <table id="511" parent="509" name="tb_hotel">
+      <Engine>InnoDB</Engine>
+      <Options>row_format
+COMPACT</Options>
       <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="513" parent="1" name="cdstore">
+    </table>
+    <table id="512" parent="509" name="tb_orderinfo">
+      <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="514" parent="1" name="cdstore2">
+    </table>
+    <table id="513" parent="509" name="tb_userinfo">
+      <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="515" parent="1" name="library">
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="516" parent="1" name="uber">
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="517" parent="1" name="mysql">
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="518" parent="1" name="state">
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <user id="519" parent="1" name="mariadb.sys">
-      <Host>localhost</Host>
-    </user>
-    <user id="520" parent="1" name="root">
-      <Host>localhost</Host>
-    </user>
-    <user id="521" parent="1" name="mysql">
-      <Host>localhost</Host>
-    </user>
-    <user id="522" parent="1" name="niuniu">
-      <Host>192.168.1.72</Host>
-    </user>
-    <user id="523" parent="1" name="niuniu">
-      <Host>127.0.0.1</Host>
-    </user>
-    <user id="524" parent="1" name="niuniu">
-      <Host>localhost</Host>
-    </user>
-    <user id="525" parent="1" name="niuniu"/>
-    <user id="526" parent="1" name="niuniu">
-      <Host>192.168.1.67</Host>
-    </user>
-    <user id="527" parent="1" name="louis"/>
+    </table>
+    <column id="514" parent="511" name="id">
+      <Comment>Hotel ID</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="515" parent="511" name="name">
+      <Comment>Hotel Name</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="516" parent="511" name="address">
+      <Comment>Hotel Address</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="517" parent="511" name="price">
+      <Comment>Hotel Price</Comment>
+      <DasType>int(10)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="518" parent="511" name="score">
+      <Comment>Hotel Score</Comment>
+      <DasType>int(2)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="519" parent="511" name="brand">
+      <Comment>Hotel Brand</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="520" parent="511" name="city">
+      <Comment>City</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="521" parent="511" name="star_name">
+      <Comment>Hotel Star Rating, from 1 star to 5 stars, or 1 diamond to 5 diamonds</Comment>
+      <DasType>varchar(16)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="522" parent="511" name="business">
+      <Comment>Business District</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="523" parent="511" name="latitude">
+      <Comment>Latitude</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="524" parent="511" name="longitude">
+      <Comment>Longitude</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="525" parent="511" name="pic">
+      <Comment>Hotel Picture</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <index id="526" parent="511" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="527" parent="511" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="528" parent="512" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="529" parent="512" name="userid">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="530" parent="512" name="hotelid">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="531" parent="512" name="totalprice">
+      <DasType>decimal(10,2 digit)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="532" parent="512" name="days">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="533" parent="512" name="tb_orderinfo_ibfk_1">
+      <ColNames>userid</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>tb_userinfo</RefTableName>
+    </foreign-key>
+    <index id="534" parent="512" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="535" parent="512" name="userid">
+      <ColNames>userid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="536" parent="512" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="537" parent="513" name="id">
+      <AutoIncrement>3</AutoIncrement>
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="538" parent="513" name="username">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="539" parent="513" name="password">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="540" parent="513" name="enable">
+      <DasType>tinyint(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="541" parent="513" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="542" parent="513" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>

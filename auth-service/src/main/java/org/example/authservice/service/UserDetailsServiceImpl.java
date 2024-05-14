@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     private UserinfoMapper userinfoMapper;
+
     @Override
     public UserDetails loadUserByUsername (String username) throws UsernameNotFoundException {
         UserInfo userInfo = userinfoMapper.findByUsername( username );

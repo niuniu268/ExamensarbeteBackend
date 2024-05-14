@@ -54,6 +54,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.Examarbete-endpoints | #1.executor": "Run",
+    "HTTP Request.Examarbete-endpoints_1 | #1.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "HTTP Request.generated-requests | #4.executor": "Run",
+    "JUnit.AuthControllerTest$AuthControllerTest.shouldAuthenticateUserAndReturnJWT.executor": "Run",
+    "JUnit.AuthControllerTest.shouldAuthenticateUserAndReturnJWT.executor": "Run",
+    "JUnit.AuthControllerTest.shouldAuthenticateUserAndReturnJWT2.executor": "Run",
+    "JUnit.AuthControllerTest.testAuthenticateUser_Success.executor": "Run",
+    "JUnit.AuthServiceApplicationTests.test_HotelRepository_servicebyId.executor": "Run",
+    "JUnit.AuthServiceApplicationTests.test_userinfo_service_servicebyId.executor": "Run",
     "JUnit.ElasticsearchServiceApplicationTests.test_HotelRepository_servicebyId.executor": "Run",
     "JUnit.ElasticsearchServiceApplicationTests.test_HotelService_servicebyId.executor": "Run",
     "JUnit.ElasticsearchServiceApplicationTests.test_elasticsearchrepository.executor": "Run",
@@ -103,81 +115,21 @@
       <recent name="org.example.authservice.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElasticsearchServiceApplicationTests.test_HotelService_servicebyId">
-    <configuration name="ElasticsearchServiceApplicationTests.test_HotelRepository_servicebyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticsearch-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.elasticsearchservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.elasticsearchservice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.elasticsearchservice.ElasticsearchServiceApplicationTests" />
-      <option name="METHOD_NAME" value="test_HotelRepository_servicebyId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
+    <configuration name="Examarbete-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="ElasticsearchServiceApplicationTests.test_HotelService_servicebyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticsearch-service" />
+    <configuration name="AuthControllerTest.testAuthenticateUser_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.elasticsearchservice.*" />
+          <option name="PATTERN" value="org.example.authservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.elasticsearchservice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.elasticsearchservice.ElasticsearchServiceApplicationTests" />
-      <option name="METHOD_NAME" value="test_HotelService_servicebyId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElasticsearchServiceApplicationTests.test_elasticsearchrepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticsearch-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.elasticsearchservice.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.elasticsearchservice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.elasticsearchservice.ElasticsearchServiceApplicationTests" />
-      <option name="METHOD_NAME" value="test_elasticsearchrepository" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.orderservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.orderservice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.orderservice.OrderServiceApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplicationTests.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.orderservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.orderservice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.orderservice.OrderServiceApplicationTests" />
-      <option name="METHOD_NAME" value="testFindById" />
+      <option name="PACKAGE_NAME" value="org.example.authservice" />
+      <option name="MAIN_CLASS_NAME" value="org.example.authservice.AuthControllerTest" />
+      <option name="METHOD_NAME" value="testAuthenticateUser_Success" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -233,11 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ElasticsearchServiceApplicationTests.test_HotelService_servicebyId" />
-        <item itemvalue="JUnit.ElasticsearchServiceApplicationTests.test_HotelRepository_servicebyId" />
-        <item itemvalue="JUnit.ElasticsearchServiceApplicationTests.test_elasticsearchrepository" />
-        <item itemvalue="JUnit.OrderServiceApplicationTests" />
-        <item itemvalue="JUnit.OrderServiceApplicationTests.testFindById" />
+        <item itemvalue="HTTP Request.Examarbete-endpoints | #1" />
+        <item itemvalue="JUnit.AuthControllerTest.testAuthenticateUser_Success" />
       </list>
     </recent_temporary>
   </component>

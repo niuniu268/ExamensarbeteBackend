@@ -15,9 +15,8 @@ public class UserPrincipalMapper {
 
         List<SimpleGrantedAuthority> authorities = new ArrayList<>();
         if (userInfo.getEnable()) {
-            authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
+            authorities.add(new SimpleGrantedAuthority("USER"));
         }
-
 
         userPrincipal.setAuthorities( authorities );
         userPrincipal.setEnabled( userInfo.getEnable() );

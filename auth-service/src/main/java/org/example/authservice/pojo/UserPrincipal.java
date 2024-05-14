@@ -1,11 +1,12 @@
 package org.example.authservice.pojo;
 
+import lombok.Data;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
-@Setter
+@Data
 public class UserPrincipal implements UserDetails {
 
     private static final long serialVersionUID = 1L;

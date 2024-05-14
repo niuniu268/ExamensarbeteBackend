@@ -8,6 +8,6 @@ import org.example.authservice.pojo.UserInfo;
 @Mapper
 public interface UserinfoMapper {
 
-    @Select("select * from hotel.tb_userinfo where username = #{username};")
+    @Select("select * from tb_userinfo where username = #{username};")
     UserInfo findByUsername (@Param("username") String username);
 }
