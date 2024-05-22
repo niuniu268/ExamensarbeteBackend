@@ -11,6 +11,7 @@
         <module name="auth-service" />
         <module name="user-service" />
         <module name="order-service" />
+        <module name="new-gateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="elasticsearch-service" options="" />
       <module name="gateway" options="" />
       <module name="gateway-service" options="" />
+      <module name="new-gateway-service" options="" />
       <module name="order-service" options="" />
       <module name="user-service" options="" />
     </option>

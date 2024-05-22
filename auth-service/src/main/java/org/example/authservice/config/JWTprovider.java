@@ -22,8 +22,8 @@ import java.util.Date;
 @Component
 public class JWTprovider {
 
-    @Value("${app.jwtSecret}")
-    private String jwtSecret;
+//    @Value("${app.jwtSecret}")
+//    private String jwtSecret;
 
     @Value("${app.jwtExpirationInMs}")
     private int jwtExpirationInMs;
@@ -31,7 +31,7 @@ public class JWTprovider {
     private SecretKey key;
 
     public JWTprovider() {
-        this.key = Keys.secretKeyFor(SignatureAlgorithm.HS512); // Generate a secure key
+        this.key = Keys.secretKeyFor(SignatureAlgorithm.HS512);
     }
 
     public String generateToken(Authentication authentication) {
@@ -64,7 +64,7 @@ public class JWTprovider {
                     .parseClaimsJws(authToken);
             return true;
         } catch (JwtException | IllegalArgumentException ex) {
-            // Log the exception if needed
+
             System.out.println(ex );
         }
         return false;

@@ -1,3 +1,218 @@
+POST http://localhost:8082/user
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8083/auth/login
+Content-Type: application/json
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "abc",
+  "password": "abc"
+}
+
+<> 2024-05-22T230845.200.txt
+
+###
+
+GET http://localhost:8083/test/protected
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhYmMiLCJpYXQiOjE3MTY0MDY0NzIsImV4cCI6MTcxNjQxMDA3Mn0.gikcBLAF2uk8c-vQSstf0WbWHN-3LRfXHEa6n6X9Cf5nVjg4RgWm6L-XOOg3XqzBJ35kuJJszyTdN3pxVp3Uig
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-22T214827.200.txt
+
+###
+
+GET http://localhost:8083/test/protected
+Content-Type: application/json
+Authorization: Bearer {{eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhYmMiLCJpYXQiOjE3MTY0MDY0NzIsImV4cCI6MTcxNjQxMDA3Mn0.gikcBLAF2uk8c-vQSstf0WbWHN-3LRfXHEa6n6X9Cf5nVjg4RgWm6L-XOOg3XqzBJ35kuJJszyTdN3pxVp3Uig}}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8083/test/protected
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 203
+
+{
+  "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhYmMiLCJpYXQiOjE3MTY0MDYwODIsImV4cCI6MTcxNjQwOTY4Mn0.Bn494k9zrANAKtJB8QVXxRqalsoJlHPRmwNo_GLiZJ4UNo11jrTII6P0HUyG33Eqt36MvvhchpR1ErAQMpUzcQ"
+}
+
+###
+
+POST http://localhost:8083/auth/login
+Content-Type: application/json
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "abc",
+  "password": "abc"
+}
+
+<> 2024-05-22T213432.200.txt
+
+###
+
+GET http://localhost:8083/test/protected
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 203
+
+{
+  "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhYmMiLCJpYXQiOjE3MTY0MDYwODIsImV4cCI6MTcxNjQwOTY4Mn0.Bn494k9zrANAKtJB8QVXxRqalsoJlHPRmwNo_GLiZJ4UNo11jrTII6P0HUyG33Eqt36MvvhchpR1ErAQMpUzcQ"
+}
+
+###
+
+POST http://localhost:8083/auth/login
+Content-Type: application/json
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "abc",
+  "password": "abc"
+}
+
+<> 2024-05-22T212802.200.txt
+
+###
+
+GET http://localhost:8083/test/protected
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 203
+
+{
+  "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhYmMiLCJpYXQiOjE3MTY0MDU5MzUsImV4cCI6MTcxNjQwOTUzNX0.GLd02E0QNSwGzGkXyX6UcQ7r67ionMYTWNKMH5yiTRy1u6aSh9YUP2iTszzuMvY2337kIHIgBnVGBAdfyehOTw"
+}
+
+###
+
+GET http://localhost:8083/test/protected
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8083/auth/login
+Content-Type: application/json
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "abc",
+  "password": "abc"
+}
+
+<> 2024-05-22T212535.200.txt
+
+###
+
+POST http://localhost:8083/auth/login
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "",
+  "password": ""
+}
+
+###
+
+POST http://localhost:8083/auth/login
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "",
+  "password": ""
+}
+
+###
+
+POST http://localhost:8083/auth
+Content-Type: application/json
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "abc",
+  "password": "abc"
+}
+
+<> 2024-05-22T104042.200.txt
+
+###
+
+POST http://localhost:8082/user
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8082/user
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8083/auth
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "",
+  "password": ""
+}
+
+###
+
 POST http://localhost:8083/auth
 Content-Type: application/json
 Content-Length: 44

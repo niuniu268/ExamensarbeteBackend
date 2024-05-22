@@ -32,7 +32,7 @@ public class AuthController {
     @Autowired
     UserDetailsService userDetailsService;
 
-    @PostMapping
+    @PostMapping("/login")
     public ResponseEntity<?> authenticateUser(@Valid @RequestBody SignInRequest signInRequest) {
 
         System.out.println( signInRequest.getUsername() );
