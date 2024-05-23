@@ -14,5 +14,5 @@ mybatis:
     map-underscore-to-camel-case: true
 
 app:
-  jwtSecret: secret
+  jwtSecret: your_super_secret_key_that_is_long_enough
   jwtExpirationInMs: 3600000

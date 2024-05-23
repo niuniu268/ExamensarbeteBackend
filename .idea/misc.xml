@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/auth-service/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch-service/pom.xml" />
         <option value="$PROJECT_DIR$/new-gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeign-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/hotel-service/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeign-service/pom.xml" />
       </set>
     </option>
   </component>

@@ -62,6 +62,7 @@
     "HTTP Request.Examarbete-endpoints_2 | #1.executor": "Run",
     "HTTP Request.Examarbete-endpoints_3 | #1.executor": "Run",
     "HTTP Request.Examarbete-endpoints_4 | #1.executor": "Run",
+    "HTTP Request.Examarbete-endpoints_6 | #1.executor": "Run",
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
     "HTTP Request.generated-requests | #3.executor": "Run",
@@ -127,34 +128,9 @@
       <recent name="org.example.authservice.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
     <configuration name="Examarbete-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
-    </configuration>
-    <configuration name="Examarbete-endpoints_2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints_2.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="Examarbete-endpoints_3 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints_3.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="Examarbete-endpoints_4 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints_4.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="AuthControllerTest.testAuthenticateUser_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auth-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.authservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.authservice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.authservice.AuthControllerTest" />
-      <option name="METHOD_NAME" value="testAuthenticateUser_Success" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth-service" />
@@ -190,6 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenfeignServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="openfeign-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.openfeignservice.OpenfeignServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.orderservice.OrderServiceApplication" />
@@ -207,10 +190,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.Examarbete-endpoints | #1" />
-        <item itemvalue="HTTP Request.Examarbete-endpoints_4 | #1" />
-        <item itemvalue="HTTP Request.Examarbete-endpoints_3 | #1" />
-        <item itemvalue="HTTP Request.Examarbete-endpoints_2 | #1" />
-        <item itemvalue="JUnit.AuthControllerTest.testAuthenticateUser_Success" />
       </list>
     </recent_temporary>
   </component>
