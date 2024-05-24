@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: elasticsearch-service
+    name: elasticsearchservice
   data:
     elasticsearch:
       repositories:

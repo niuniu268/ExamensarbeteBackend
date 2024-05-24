@@ -96,7 +96,7 @@
     "Spring Boot.OrderServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/Mac/IdeaProjects/Examarbete",
+    "last_opened_file_path": "/Users/Mac/IdeaProjects/ExamensarbeteBackend",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.stylelint": "",
@@ -128,7 +128,7 @@
       <recent name="org.example.authservice.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="Examarbete-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
