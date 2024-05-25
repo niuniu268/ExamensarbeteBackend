@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 
 @Mapper
 public interface OrderMapper {
-    @Select( "select * from hotel.tb_hotel where id = #{id};" )
+    @Select( "select * from tb_hotel where id = #{id};" )
     Order findById(@Param( "id" ) Integer id);
 }

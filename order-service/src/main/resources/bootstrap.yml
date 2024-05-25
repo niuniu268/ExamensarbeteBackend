@@ -2,7 +2,7 @@ spring:
   application:
     name: orderservice
   profiles:
-    active: dev # 环境
+    active: dev
   cloud:
     nacos:
       discovery:

@@ -1,32 +1,47 @@
 server:
   port: 8080
+
 spring:
   application:
     name: gatewayservice
-
+  main:
+    web-application-type: reactive
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://192.168.1.72:3306/assignment?serverTimezone=UTC
+    username: louis
+    password: louis268
+    driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
-
     nacos:
       server-addr: 192.168.1.72:8848
-      file-extension: yaml
     gateway:
       routes:
         - id: order-service
-          uri:
-            http://127.0.0.1:8081
+          uri: http://127.0.0.1:8081
           predicates:
             - Path=/order/**
         - id: user-service
-          uri:
-            http://127.0.0.1:8082
+          uri: http://127.0.0.1:8082
           predicates:
             - Path=/user/**
         - id: auth-service
-          uri:
-            http://127.0.0.1:8083
+          uri: http://127.0.0.1:8083
           predicates:
             - Path=/auth/**
-            - Path=/test/**
+        - id: elasticsearch-service
+          uri: http://127.0.0.1:8084
+          predicates:
+            - Path=/search/**
       discovery:
         locator:
           enabled: true
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+app:
+  jwtSecret: your_super_secret_key_that_is_long_enough
+  jwtExpirationInMs: 3600000
+

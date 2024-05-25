@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@192.168.1.72">
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.52">
-    <root id="1">
-      <DefaultCasing>exact</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <Grants>assignment|schema||louis||ALTER|G
-assignment|schema||louis||ALTER ROUTINE|G
-assignment|schema||louis||CREATE|G
-assignment|schema||louis||CREATE ROUTINE|G
-assignment|schema||louis||CREATE TEMPORARY TABLES|G
-assignment|schema||louis||CREATE VIEW|G
-assignment|schema||louis||DELETE|G
-assignment|schema||louis||DELETE HISTORY|G
-assignment|schema||louis||DROP|G
-assignment|schema||louis||EVENT|G
-assignment|schema||louis||EXECUTE|G
-assignment|schema||louis||INDEX|G
-assignment|schema||louis||INSERT|G
-assignment|schema||louis||LOCK TABLES|G
-assignment|schema||louis||REFERENCES|G
-assignment|schema||louis||SELECT|G
-assignment|schema||louis||SHOW CREATE ROUTINE|G
-assignment|schema||louis||SHOW VIEW|G
-assignment|schema||louis||TRIGGER|G
-assignment|schema||louis||UPDATE|G</Grants>
-      <ServerVersion>11.3.2</ServerVersion>
-    </root>
+    <root id="1"/>
     <collation id="2" parent="1" name="big5_chinese_ci">
       <Charset>big5</Charset>
       <DefaultForCharset>1</DefaultForCharset>
