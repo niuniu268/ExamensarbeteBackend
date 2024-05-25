@@ -132,7 +132,7 @@
       <recent name="org.example.authservice.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.NewGatewayServiceApplication">
     <configuration name="Examarbete-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>

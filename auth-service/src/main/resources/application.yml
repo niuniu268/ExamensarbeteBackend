@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://192.168.1.72:3306/assignment?serverTimezone=UTC
     username: louis
     password: louis268
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: authservice
 
@@ -16,3 +16,10 @@ mybatis:
 app:
   jwtSecret: your_super_secret_key_that_is_long_enough
   jwtExpirationInMs: 3600000
+
+
+
+logging:
+  level:
+    root: debug
+    sql: debug

@@ -4,7 +4,7 @@ import jakarta.validation.Valid;
 import org.example.authservice.config.JWTprovider;
 import org.example.authservice.config.SecurityConfig;
 import org.example.authservice.pojo.SignInRequest;
-import org.example.userservice.pojo.UserInfo;
+//import org.example.userservice.pojo.UserInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
