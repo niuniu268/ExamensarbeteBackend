@@ -1,6 +1,6 @@
 # Examarbetet Hongwei Han
 
-![image1](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/Examarbetet.png?raw=true)
+![image1](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Examarbetet.png?raw=true)
 
 ## Prerequisites
 
@@ -45,7 +45,31 @@ The program use `spring-cloud-starter-openfeign` to configure the openfeign. Giv
 
 ### With gateway and Oauth2
 
+- Login in order to get token
+
+![Login](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Screenshot%202024-05-27%20at%2010.52.02.png?raw=true)
+
+- Without token the response is error
+![Error](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Screenshot%202024-05-27%20at%2010.52.22.png?raw=true)
+
+- With token, the program gets user information, `abc`.
+
+![UserInfo](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Screenshot%202024-05-27%20at%2010.52.52.png?raw=true)
+
+- With token the program gets order information in response to the user information
+
+![OrderInfo_1](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Screenshot%202024-05-27%20at%2010.53.44.png?raw=true)
+
+![OrderInfo_2](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Screenshot%202024-05-27%20at%2010.54.49.png?raw=true)
+
+- Research the data from elastic search
+
+![ES_1](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Screenshot%202024-05-27%20at%2010.54.23.png?raw=true)
+
+![WS_2](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Screenshot%202024-05-27%20at%2010.40.15.png?raw=true)
+
 ## Limitation
+
 - RabbitMQ
 - Redis
 - Deployment
