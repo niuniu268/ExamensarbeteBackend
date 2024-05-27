@@ -9,9 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="elasticsearch-service" />
         <module name="auth-service" />
+        <module name="new-gateway-service" />
         <module name="user-service" />
         <module name="order-service" />
-        <module name="new-gateway-service" />
+        <module name="feign-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="Examarbete" options="" />
       <module name="auth-service" options="" />
       <module name="elasticsearch-service" options="" />
+      <module name="feign-service" options="" />
       <module name="gateway" options="" />
       <module name="gateway-service" options="" />
       <module name="new-gateway-service" options="" />

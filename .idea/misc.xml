@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/elasticsearch-service/pom.xml" />
         <option value="$PROJECT_DIR$/new-gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/openfeign-service/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

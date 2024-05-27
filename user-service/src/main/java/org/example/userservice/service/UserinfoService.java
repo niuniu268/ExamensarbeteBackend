@@ -4,4 +4,5 @@ import org.example.userservice.pojo.UserInfo;
 
 public interface UserinfoService {
     UserInfo findByUsername(String username);
+    UserInfo findById(Integer id);
 }

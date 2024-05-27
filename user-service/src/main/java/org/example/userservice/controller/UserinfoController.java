@@ -38,4 +38,9 @@ public class UserinfoController {
 
         System.out.println( byUsername );
     }
+
+    @GetMapping("/{id}")
+    public UserInfo queryById(@PathVariable("id") Integer id){
+        return userinfoService.findById( id );
+    }
 }

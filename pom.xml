@@ -15,6 +15,7 @@
         <module>auth-service</module>
         <module>elasticsearch-service</module>
         <module>new-gateway-service</module>
+        <module>feign-service</module>
     </modules>
 
     <packaging>pom</packaging>

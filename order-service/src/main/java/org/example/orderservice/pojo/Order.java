@@ -1,6 +1,7 @@
 package org.example.orderservice.pojo;
 
 import lombok.Data;
+import org.example.feignservice.pojo.UserInfo;
 
 import java.io.Serializable;
 
@@ -12,5 +13,6 @@ public class Order implements Serializable {
     private String hotelid;
     private String totalprice;
     private String days;
+    private UserInfo userInfo;
 
 }
