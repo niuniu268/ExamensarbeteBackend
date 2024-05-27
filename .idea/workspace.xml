@@ -55,74 +55,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.Examarbete-endpoints | #1.executor": "Run",
-    "HTTP Request.Examarbete-endpoints | #5.executor": "Run",
-    "HTTP Request.Examarbete-endpoints | #6.executor": "Run",
-    "HTTP Request.Examarbete-endpoints | #7.executor": "Run",
-    "HTTP Request.Examarbete-endpoints | #8.executor": "Run",
-    "HTTP Request.Examarbete-endpoints_1 | #1.executor": "Run",
-    "HTTP Request.Examarbete-endpoints_2 | #1.executor": "Run",
-    "HTTP Request.Examarbete-endpoints_3 | #1.executor": "Run",
-    "HTTP Request.Examarbete-endpoints_4 | #1.executor": "Run",
-    "HTTP Request.Examarbete-endpoints_6 | #1.executor": "Run",
-    "HTTP Request.ExamensarbeteBackend-endpoints_4 | #1.executor": "Run",
-    "HTTP Request.ExamensarbeteBackend-endpoints_5 | #1.executor": "Run",
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "HTTP Request.generated-requests | #2.executor": "Run",
-    "HTTP Request.generated-requests | #3.executor": "Run",
-    "HTTP Request.generated-requests | #4.executor": "Run",
-    "JUnit.AuthControllerTest$AuthControllerTest.shouldAuthenticateUserAndReturnJWT.executor": "Run",
-    "JUnit.AuthControllerTest.shouldAuthenticateUserAndReturnJWT.executor": "Run",
-    "JUnit.AuthControllerTest.shouldAuthenticateUserAndReturnJWT2.executor": "Run",
-    "JUnit.AuthControllerTest.testAuthenticateUser_Success.executor": "Run",
-    "JUnit.AuthServiceApplicationTests.test_HotelRepository_servicebyId.executor": "Run",
-    "JUnit.AuthServiceApplicationTests.test_userinfo_service_servicebyId.executor": "Run",
-    "JUnit.ElasticsearchServiceApplicationTests.test_HotelRepository_servicebyId.executor": "Run",
-    "JUnit.ElasticsearchServiceApplicationTests.test_HotelService_servicebyId.executor": "Run",
-    "JUnit.ElasticsearchServiceApplicationTests.test_elasticsearchrepository.executor": "Run",
-    "JUnit.OrderServiceApplicationTests.executor": "Run",
-    "JUnit.OrderServiceApplicationTests.testControllerFindById.executor": "Run",
-    "JUnit.OrderServiceApplicationTests.testFindById.executor": "Run",
-    "Maven.Examarbete [clean].executor": "Run",
-    "Maven.Examarbete [compile].executor": "Run",
-    "Maven.Examarbete [validate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.AuthServiceApplication.executor": "Run",
-    "Spring Boot.ElasticsearchServiceApplication.executor": "Run",
-    "Spring Boot.FeignServiceApplication.executor": "Run",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.GatewayServiceApplication.executor": "Run",
-    "Spring Boot.NewGatewayServiceApplication.executor": "Run",
-    "Spring Boot.OrderServiceApplication.executor": "Run",
-    "Spring Boot.UserServiceApplication.executor": "Run",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/Mac/IdeaProjects/ExamensarbeteBackend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.30114943",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.Examarbete-endpoints | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints | #8.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints_1 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints_2 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints_3 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints_4 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.Examarbete-endpoints_6 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ExamensarbeteBackend-endpoints_4 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ExamensarbeteBackend-endpoints_5 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$AuthControllerTest.shouldAuthenticateUserAndReturnJWT.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest.shouldAuthenticateUserAndReturnJWT.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest.shouldAuthenticateUserAndReturnJWT2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest.testAuthenticateUser_Success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceApplicationTests.test_HotelRepository_servicebyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceApplicationTests.test_userinfo_service_servicebyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ElasticsearchServiceApplicationTests.test_HotelRepository_servicebyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ElasticsearchServiceApplicationTests.test_HotelService_servicebyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ElasticsearchServiceApplicationTests.test_elasticsearchrepository.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceApplicationTests.testControllerFindById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceApplicationTests.testFindById.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Examarbete [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Examarbete [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Examarbete [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ElasticsearchServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.FeignServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NewGatewayServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Mac/IdeaProjects/ExamensarbeteBackend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30114943&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -131,6 +131,7 @@
       <recent name="$PROJECT_DIR$/hotel-service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/elasticsearch-service/src/main/java/org/example/elasticsearchservice" />
       <recent name="$PROJECT_DIR$/new-gateway-service/src/main/java/org/example/newgatewayservice" />
     </key>
@@ -150,9 +151,6 @@
     <configuration name="Examarbete-endpoints | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints.http" index="7" requestIdentifier="#7" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="Examarbete-endpoints | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Examarbete-endpoints.http" index="8" requestIdentifier="#8" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.authservice.AuthServiceApplication" />
@@ -163,13 +161,6 @@
     <configuration name="ElasticsearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="elasticsearch-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.elasticsearchservice.ElasticsearchServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamarbeteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Examarbete" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.examarbete.ExamarbeteApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,22 +179,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.gateway.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NewGatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="new-gateway-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.newgatewayservice.NewGatewayServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenfeignServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="openfeign-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.openfeignservice.OpenfeignServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,10 +202,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.Examarbete-endpoints | #7" />
-        <item itemvalue="HTTP Request.Examarbete-endpoints | #8" />
-        <item itemvalue="HTTP Request.Examarbete-endpoints | #5" />
         <item itemvalue="Spring Boot.FeignServiceApplication" />
+        <item itemvalue="HTTP Request.Examarbete-endpoints | #7" />
+        <item itemvalue="HTTP Request.Examarbete-endpoints | #5" />
         <item itemvalue="HTTP Request.Examarbete-endpoints | #6" />
       </list>
     </recent_temporary>

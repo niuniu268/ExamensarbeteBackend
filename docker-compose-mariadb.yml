@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword # You should change this.
+      MYSQL_DATABASE: assignment
+      MYSQL_USER: louis
+      MYSQL_PASSWORD: louis268
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./volumn:/lib/volumn # Mount the directory containing your init script
+    command: ['--character-set-server=utf8mb4', '--collation-server=utf8mb4_general_ci']
