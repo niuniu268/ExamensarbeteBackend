@@ -1,12 +1,14 @@
 # Examarbetet Hongwei Han
 
+This project aims to generate a demo by which users can check hotel information and book hotel.
+
 ![image1](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Examarbetet.png?raw=true)
 
 ## Prerequisites
 
 - Alibaba Nacos
 
-```docker compose -f standalone-derby.yaml up```
+```docker run --name nacos-quick -e MODE=standalone -p 8848:8848 -p 9848:9848 -d nacos/nacos-server:v2.2.0```
 
 - Mysql
 
@@ -42,6 +44,9 @@ Users can get access to different services through same address and port. Meanwh
 The program use `spring-cloud-starter-openfeign` to configure the openfeign. Given openfeign service, the endpoint of user information service is internally exposed. Meanwhile, `feign-httpclient` attempts to deliver the endpoint to the order information service. With the help of the openfeign service, the order information service is able to show the user information.
 
 ## Results
+
+- Endpoints
+![Endpoints](https://github.com/niuniu268/ExamensarbeteBackend/blob/master/img/Screenshot%202024-05-28%20at%2009.33.02.png?raw=true)
 
 ### With gateway and Oauth2
 

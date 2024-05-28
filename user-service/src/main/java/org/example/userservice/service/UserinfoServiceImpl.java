@@ -7,8 +7,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserinfoServiceImpl implements UserinfoService {
+
     @Autowired
     private UserinfoMapper userinfoMapper;
+
     @Override
     public UserInfo findByUsername (String username) {
         return userinfoMapper.findByUsername( username );
@@ -17,5 +19,23 @@ public class UserinfoServiceImpl implements UserinfoService {
     @Override
     public UserInfo findById (Integer id) {
         return userinfoMapper.findById( id );
+    }
+
+    @Override
+    public void updateUser (String username, String password) {
+
+        userinfoMapper.update( username,  password );
+    }
+
+    @Override
+    public void addUser (UserInfo userInfo) {
+
+        userinfoMapper.insert( userInfo );
+    }
+
+    @Override
+    public void deleteUser (String username) {
+
+        userinfoMapper.delete( username );
     }
 }

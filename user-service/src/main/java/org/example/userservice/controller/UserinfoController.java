@@ -41,6 +41,30 @@ public class UserinfoController {
 
     @GetMapping("/{id}")
     public UserInfo queryById(@PathVariable("id") Integer id){
+
         return userinfoService.findById( id );
+    }
+
+    @PostMapping("/update")
+    public void updateUser(@PathParam( "username" ) String username, @PathParam( "password" ) String password){
+
+        userinfoService.updateUser( username, password );
+    }
+
+    @DeleteMapping
+    public void deleteUser(@PathParam( "username" ) String username){
+
+        userinfoService.deleteUser( username );
+    }
+
+    @PutMapping
+    public void addUser(@PathParam( "username" ) String username, @PathParam( "password" ) String password){
+
+        UserInfo userInfo = new UserInfo( );
+        userInfo.setUsername( username );
+        userInfo.setPassword( password );
+        userInfo.setEnable( true );
+
+        userinfoService.addUser( userInfo );
     }
 }

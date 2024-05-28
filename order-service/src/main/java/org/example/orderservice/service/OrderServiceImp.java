@@ -29,4 +29,22 @@ public class OrderServiceImp implements OrderService{
 
         return orderMapperById;
     }
+
+    @Override
+    public void addOrder (Integer userid, String hotelid, String totalprice, String days) {
+
+        orderMapper.insert( userid, hotelid, totalprice, days);
+    }
+
+    @Override
+    public void updateOrder (Integer id, Integer userid, String hotelid, String totalprice, String days) {
+
+        orderMapper.update( id, userid, hotelid, totalprice, days );
+    }
+
+    @Override
+    public void deleteOrder (Integer id) {
+
+        orderMapper. delete( id );
+    }
 }
