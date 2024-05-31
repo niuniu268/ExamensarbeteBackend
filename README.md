@@ -19,29 +19,30 @@ This project aims to generate a demo by which users can check hotel information 
 ```docker compose -f docker-compose-elasticsearch.yml up```
 
 ## Micoservices
-- User information service
 
-The program applies the Mybatis to create, select, update and delete user information in the Mysql table, tb_userInfo. Mybatis is able to convert the snake format to the camel format. Data from repository is updated in the service section and is exposed at endpoint /user.
+- User Information Service
 
-- Order information service
+The program uses MyBatis to create, select, update, and delete user information in the MySQL table tb_userInfo. MyBatis automatically converts snake_case to camelCase. Data from the repository is updated in the service section and is exposed at the endpoint /user.
 
-The program applies similar methods in the order information service. When users review the order information, the program will receive users' information through openfeign service
+- Order Information Service
 
-- Elastic search service
+The program applies similar methods in the order information service. When users review order information, the program retrieves user information through the OpenFeign service.
 
-The program uses `spring-boot-starter-data-elasticsearch` to connect to the elastic search. The program applies the JPA to select the hotel information.
+- Elasticsearch Service
 
-- Authenication service
+The program uses spring-boot-starter-data-elasticsearch to connect to Elasticsearch. It applies JPA to select hotel information.
 
-Based on the user information database, the program aims to generate token and decode the token. The endpoint, `/auth/login` generates the token. Meanwhile, the endpoint,`/test/protected` ensures the service works well. In addition, the program also decipher the password by `JWTprovider` method.
+- Authentication Service
 
-- Gateway service
+Based on the user information database, the program generates and decodes tokens. The endpoint /auth/login generates tokens, while the endpoint /test/protected ensures the service functions correctly. Additionally, the program deciphers passwords using the JWTProvider method.
 
-Users can get access to different services through same address and port. Meanwhile, gateway service plays a role for the load balance. The endpoint `/auth/login` is directly exposed, so that users can visit the endpoint without token. Otherwise, users need to input token when they visit other endpoints.
+- Gateway Service
 
-- Openfeign service
+Users can access different services through the same address and port. The gateway service also handles load balancing. The endpoint /auth/login is directly exposed so users can visit it without a token. For other endpoints, users need to provide a token.
 
-The program use `spring-cloud-starter-openfeign` to configure the openfeign. Given openfeign service, the endpoint of user information service is internally exposed. Meanwhile, `feign-httpclient` attempts to deliver the endpoint to the order information service. With the help of the openfeign service, the order information service is able to show the user information.
+- OpenFeign Service
+
+The program uses spring-cloud-starter-openfeign to configure OpenFeign. With OpenFeign, the user information service endpoint is internally exposed. Meanwhile, feign-httpclient delivers the endpoint to the order information service. This enables the order information service to display user information.
 
 ## Results
 
